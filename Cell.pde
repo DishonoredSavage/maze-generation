@@ -20,8 +20,6 @@ class Cell {
   void markVisited() {
     this.visited = true;
     numbVisited++;
-    //colorMode(HSB, 255, 100, 100);
-    //c = color(map(numbVisited, 0, rows*cols, 0, 255), 100, 100);
     c = color(0, 100, 100);
   }
   
